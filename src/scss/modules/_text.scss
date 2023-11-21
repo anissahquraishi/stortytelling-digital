@@ -3,3 +3,33 @@
   color: black;
   font-family: comic sans ms, sans-serif;
 }
+
+.text-comment {
+  color: #000;
+
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 17px; /* 121.429% */
+  padding: 8px 0px;
+}
+
+.text-date {
+  color: #a7a7a7;
+
+  font-family: ff-tisa-sans-web-pro;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px; /* 175% */
+}
+
+.text-style {
+  font-family: ff-tisa-sans-web-pro;
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}

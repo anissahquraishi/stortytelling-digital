@@ -1,18 +1,25 @@
 .description {
   color: #000;
 
-  font-family: Estedad-VF;
-  font-size: 11px;
-  font-style: normal;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
   font-weight: 300;
+  font-style: normal;
 }
 
 .description-paragraph {
   font-size: 16px;
   line-height: 21px; /* 131.25% */
+  padding-bottom: 15px;
 }
 
 .description-details {
   font-size: 11px;
   line-height: 16px; /* 200% */
+  padding-bottom: 35px;
+}
+
+.description-title {
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }

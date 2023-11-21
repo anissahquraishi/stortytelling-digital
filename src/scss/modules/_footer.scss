@@ -1,0 +1,22 @@
+.footer {
+  background-color: #c9e2d1;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer p {
+  color: white;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+}
+
+.footer-left-text {
+  margin-left: 35px;
+}
+
+.footer-right-text {
+  padding-right: 35px;
+}

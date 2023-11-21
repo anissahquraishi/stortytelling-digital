@@ -1,0 +1,23 @@
+.container-product {
+  display: flex;
+  flex-direction: row;
+  background-color: #fdfdfd;
+}
+
+.container-image {
+  padding-left: 180px;
+  width: 40%;
+}
+
+.container-text {
+  flex: 1;
+  padding: 60px; /* Adjust as needed */
+  box-sizing: border-box;
+  text-align: left; /* Adjust as needed */
+  padding-right: 244px;
+}
+
+.container-review {
+  display: flex;
+  flex-direction: rows;
+}
