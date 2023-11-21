@@ -1,14 +1,19 @@
-.style-text {
-  width: 410px;
-  height: 111px;
-  flex-shrink: 0;
-  color: #fff;
+// .style-text {
+//   color: #fff;
+//   text-align: center;
+//   font-family: Estedad-VF;
+//   font-size: 25px;
+//   font-style: normal;
+//   font-weight: 900;
+//   line-height: 28px;
+//   text-transform: uppercase;
+// }
 
+.style-text {
+  font-family: estedad-f, sans-serif;
+  font-weight: 600;
   text-align: center;
-  font-family: Estedad-VF;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 28px; /* 112% */
-  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
