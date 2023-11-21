@@ -4,3 +4,23 @@
   justify-content: center;
   height: 100vh; /* Use the full height of the viewport */
 }
+
+.horizontal-scroll {
+  // overflow: hidden;
+  height: 100vh;
+  border: pink 3px solid;
+}
+
+.screen {
+  width: 1438px;
+  height: 600px;
+  border: 5px solid blue;
+  position: relative;
+}
+
+.slider-track {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  border: red 3px solid;
+}

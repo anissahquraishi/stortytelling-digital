@@ -5,3 +5,16 @@
   height: 3333px;
   background-repeat: no-repeat;
 }
+
+.bg {
+  background-image: url(../img/train-bg.png?as=webp);
+  background-repeat: repeat-x;
+  position: relative;
+  width: 11325px;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.bg .screen {
+  position: relative;
+}
