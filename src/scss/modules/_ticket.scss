@@ -6,13 +6,19 @@
 }
 
 .ticket-tokyo {
-  width: 670px;
-  height: 324.531px;
+  // position: absolute;
+  width: 40%;
+  top: 90%;
+  right: 15%;
   flex-shrink: 0;
 }
 
 .ticket-kurayoshi {
-  width: 670px;
-  height: 326.801px;
+  // position: absolute;
+  top: 90%;
+  left: 15%;
+  width: 40%;
   flex-shrink: 0;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
 }
