@@ -1,9 +1,9 @@
 .bg-img {
   position: relative;
-  background-image: url("../img/homepage_fond.png");
+  background-image: url("../img/homepage_fond.png?as=webp");
   background-size: cover;
   background-repeat: no-repeat;
-  border: 3px solid red;
+  // border: 3px solid red;
 }
 
 .bg {
@@ -25,18 +25,19 @@
       rgba(255, 255, 255, 0) 85%,
       rgba(255, 255, 255, 1)
     ),
-    url("../img/bg-last.png");
+    url("../img/bg-last.png?as=webp");
   aspect-ratio: 14.6 / 22.4;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border: 3px solid red;
+  // border: 3px solid red;
   margin-bottom: 30px;
 }
 
 .bg-text {
+  position: relative;
   background: #f8f8f8;
-  padding: 20 20px;
+  padding: 16px 20px;
   margin-bottom: 30px;
   width: 480px;
 }

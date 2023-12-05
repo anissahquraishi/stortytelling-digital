@@ -1,25 +1,33 @@
 .container-product {
+  position: relative;
   display: flex;
   flex-direction: row;
   background-color: #fdfdfd;
+  padding-top: 40px;
+  padding: 100px;
 }
 
 .container-image {
   padding-left: 180px;
-  width: 40%;
+  padding-top: 10;
+  width: 45%;
 }
 
 .container-text {
   flex: 1;
-  padding: 60px; /* Adjust as needed */
+  padding-left: 100px; /* Adjust as needed */
   box-sizing: border-box;
   text-align: left; /* Adjust as needed */
-  padding-right: 244px;
 }
 
 .container-review {
   display: flex;
-  flex-direction: rows;
+  flex-direction: row;
+}
+
+.container-review img {
+  flex-shrink: 0;
+  padding-right: 3px;
 }
 
 .container {
