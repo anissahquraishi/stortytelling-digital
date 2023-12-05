@@ -2,22 +2,25 @@
   position: relative;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   background-color: #fdfdfd;
-  padding-top: 40px;
-  padding: 100px;
+  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-left: 160px;
 }
 
 .container-image {
-  padding-left: 180px;
   padding-top: 10;
-  width: 45%;
+  padding-left: 50px;
+  width: 500px;
 }
 
 .container-text {
   flex: 1;
-  padding-left: 100px; /* Adjust as needed */
+  padding-left: 115px; /* Adjust as needed */
   box-sizing: border-box;
   text-align: left; /* Adjust as needed */
+  padding-top: 30px;
 }
 
 .container-review {
