@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+.button:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 a {
   text-align: none;
 }
@@ -29,4 +35,10 @@ a {
   font-family: ff-tisa-sans-web-pro, sans-serif;
   font-size: 20;
   font-weight: 400;
+}
+
+.button-buy:hover {
+  opacity: 0.6;
+  transform: scale(1.05);
+  cursor: pointer;
 }
