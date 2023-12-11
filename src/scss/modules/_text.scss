@@ -16,6 +16,11 @@
   padding: 10px 0px 5px;
 }
 
+.text-bg {
+  background: #d9d9d9;
+  filter: blur(30px);
+}
+
 .text-see {
   position: absolute;
   color: black;
@@ -34,11 +39,6 @@
   position: absolute;
   top: 10%;
   left: 23%;
-}
-
-.text-bg {
-  background: #d9d9d9;
-  filter: blur(30px);
 }
 
 .text-style {
