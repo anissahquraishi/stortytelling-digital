@@ -2,23 +2,35 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
 }
 
-.ticket-tokyo {
-  // position: absolute;
+.ticket-tokyo,
+.ticket-kurayoshi {
   width: 40%;
-  top: 90%;
-  right: 15%;
   flex-shrink: 0;
 }
 
 .ticket-kurayoshi {
-  // position: absolute;
-  top: 90%;
   left: 15%;
-  width: 40%;
-  flex-shrink: 0;
   padding-bottom: 50px;
   margin-bottom: 100px;
+}
+
+.ticket-tokyo {
+  right: 15%;
+}
+
+.ticket {
+  display: block;
+  z-index: 10;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ticket-kurayoshi:hover {
+  transform: scale(1.2);
+}
+
+.ticket-tokyo:hover {
+  transform: scale(1.2);
 }
