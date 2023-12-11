@@ -5,7 +5,7 @@
 
 .link-decoration {
   text-decoration: none;
-  border-bottom: 1.5px solid #000;
+  border-bottom: 1px solid #9d9d9d;
   padding-bottom: 2px;
 }
 
@@ -17,4 +17,12 @@
   font-weight: 100;
   color: #9d9d9d;
   font-size: 11px;
+}
+
+.link-shop {
+  position: absolute;
+  top: 52%;
+  left: 38%;
+  font-size: 16px;
+  color: #9d9d9d;
 }
