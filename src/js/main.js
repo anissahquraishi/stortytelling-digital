@@ -29,3 +29,24 @@ window.addEventListener("resize", () => {
   slider.invalidate();
   slider.totalProgress(progress);
 });
+
+document.addEventListener("DOMContentLoaded", (event) => {
+  const animationDuration = 20000;
+  const delayBeforeScroll = 2000;
+
+  const scrollToSection = (sectionId) => {
+    const targetSection = document.getElementById(sectionId);
+    if (targetSection) {
+      window.scrollTo({
+        top: targetSection.offsetTop,
+        behavior: "smooth",
+        duration: animationDuration,
+        easing: "ease-in",
+      });
+    }
+  };
+
+  setTimeout(() => {
+    scrollToSection("section2");
+  }, delayBeforeScroll);
+});
