@@ -19,13 +19,15 @@
 .text-bg {
   background: #d9d9d9;
   filter: blur(30px);
+  position: relative;
 }
 
 .text-see {
   position: absolute;
   color: black;
   font-family: comic sans ms, sans-serif;
-  top: 20%;
+  top: 100%;
+  left: 0%;
 }
 
 .text-date {
@@ -70,14 +72,32 @@
 
 .text-4 {
   position: absolute;
-  top: 25%;
-  left: 78%;
+  top: 35%;
+  left: 80%;
+  white-space: nowrap;
+}
+
+.text-4::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #d9d9d9;
+  filter: blur(30px);
 }
 
 .text-5 {
   position: absolute;
   top: 18%;
   left: 25%;
+}
+.text-5::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #d9d9d9;
+  filter: blur(30px);
 }
 
 .text-6 {
@@ -96,6 +116,14 @@
   position: absolute;
   top: 35%;
   left: 43%;
+}
+.text-8::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #d9d9d9;
+  filter: blur(18px);
 }
 
 .text-9 {
@@ -128,6 +156,15 @@
   top: 40%;
   left: 125%;
   white-space: nowrap;
+}
+
+.text-kurayoshi-5::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: #d9d9d9;
+  filter: blur(26px);
 }
 
 .text-kurayoshi-6 {
