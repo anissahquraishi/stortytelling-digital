@@ -75,6 +75,15 @@
   left: 770px;
 }
 
+.img-shadow {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.img-shadow:hover {
+  transform: scale(1.05);
+  filter: brightness(180%);
+}
+
 .img-48-standing {
   position: absolute;
   top: 63%;

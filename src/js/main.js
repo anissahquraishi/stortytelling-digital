@@ -30,6 +30,19 @@ window.addEventListener("resize", () => {
   slider.totalProgress(progress);
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  var playButton = document.getElementById("playButton");
+  var audioPlayer = document.getElementById("audioPlayer");
+
+  playButton.addEventListener("click", function () {
+    if (audioPlayer.paused) {
+      audioPlayer.play();
+    } else {
+      audioPlayer.pause();
+    }
+  });
+});
+
 document.addEventListener("DOMContentLoaded", (event) => {
   const animationDuration = 20000;
   const delayBeforeScroll = 2000;
@@ -50,3 +63,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
     scrollToSection("section2");
   }, delayBeforeScroll);
 });
+
+var audio = document.getElementById("audioPlayer");
+audio.volume = 0.01;
